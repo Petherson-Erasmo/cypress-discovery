@@ -1,0 +1,18 @@
+{
+    "signup": {
+        "nome": "Petherson Erasmo",
+        "cpf": "12345678901",
+        "email": "pet@test.com",
+        "whatsapp": "22999999999",
+        "address": {
+            "postalcode": "28610210",
+            "street": "Rua Major Augusto Marques Braga",
+            "number": "80",
+            "details": "casa",
+            "district": "Centro",
+            "city_uf": "Nova Friburgo/RJ"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpeg"
+    }
+}
