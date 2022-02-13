@@ -16,7 +16,7 @@ jobs:
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v2
         with:
-          install-command: npm install
+          install-command: yarn install
           wait-on: ${{ secrets.BASE_URL }}
           wait-on-timeout: 120
           browser: chrome
@@ -24,4 +24,5 @@ jobs:
           group: 'UI - Chrome'
           spec: cypress/integration/*
         env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
